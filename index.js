@@ -38,7 +38,7 @@ client.on("guildMemberAdd", async member => {
   .setFooter('Thanks For Joining!')
   channel.send(WELCOME)
 })
-client.login("TOKEN"); // Login with the token make sure to add it when starting
+client.login("URBOTTOKEN"); // Login with the token make sure to add it when starting
 
 client.on('guildMemberAdd', async member => {
     let image = await welcomeCanvas
